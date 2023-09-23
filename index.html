@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>ZIM - Code Creativity</title>
+<title>All Dem Faucets!</title>
 
 <!-- zimjs.com - JavaScript Canvas Framework -->
 <script type=module>
@@ -24,7 +24,7 @@ function ready() {
 
 	let apiType = pluck(typesFaucet);
 	let apiUrl = baseApiUrl+apiType;
-	zog('Showing Data for ' +apiType);
+	//zog('Showing Data for ' +apiType);
 
 	
 async(`https://zimjs.org/cdn/jsonp.php?api=${apiUrl}&callback=async.submitData`, submitData);
